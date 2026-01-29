@@ -6,6 +6,9 @@
   <title>Perfect Print Solutions | Impresión y Publicidad</title>
   <meta name="description" content="Perfect Print Solutions: impresión DTF UV, materiales rígidos, sublimación, estampados, bordados y publicidad personalizada de alta calidad." />
 
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+
   <style>
     :root {
       --negro: #0b0b0b;
@@ -160,10 +163,15 @@
       color: #aaa;
     }
 
-    footer a {
+    footer i {
+      font-size: 22px;
       color: var(--oro);
-      text-decoration: none;
-      margin: 0 12px;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    footer a:hover i {
+      transform: scale(1.2);
+      color: var(--oro-rosa);
     }
   </style>
 </head>
@@ -171,7 +179,7 @@
 <body>
 
 <header>
-  <img src="Logo.png" alt="Perfect Print Solutions Logo" />
+  <img src="logo.png" alt="Perfect Print Solutions Logo" />
   <h1>Perfect Print Solutions</h1>
   <p>Impresión y publicidad personalizada con acabados premium</p>
   <div class="cta">
@@ -233,14 +241,13 @@
 </section>
 
 <footer>
-  <div style="margin-bottom:15px;">
-    <a href="https://www.facebook.com/PerfectPrintSolutions/" target="_blank">Facebook</a>
-    <a href="https://share.google/bb84DxqMTk71sAQ1v" target="_blank">Google Business</a>
-    <a href="https://wa.me/573102907194" target="_blank">WhatsApp</a>
+  <div style="margin-bottom:20px;display:flex;justify-content:center;gap:25px;">
+    <a href="https://www.facebook.com/PerfectPrintSolutions/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://share.google/bb84DxqMTk71sAQ1v" target="_blank" aria-label="Google Business"><i class="fab fa-google"></i></a>
+    <a href="https://wa.me/573102907194" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
   </div>
   © 2026 Perfect Print Solutions · Calidad en impresión & publicidad
 </footer>
 
 </body>
-
 </html>
